@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured, performant, and modular **Task Management App** built using **React 19**, **Vite**, and modern React Hooks with persistent storage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Create, edit, and delete tasks
+- 🔍 Filter tasks by status (All, Active, Completed)
+- 💾 Persist tasks in `localStorage`
+- ♻️ Optimized rendering using `React.memo`, `useMemo`, and `useCallback`
+- 🧩 Custom hooks for form handling and task management
+- 🧪 Unit tested with Vitest + React Testing Library
+- 🎨 Styled with basic CSS
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- React Hooks (`useState`, `useEffect`, `useCallback`, `useMemo`)
+- Custom Hooks
+- CSS Modules / Plain CSS
+- `localStorage` for persistent state
+- Vitest + React Testing Library
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- npm v9+
+
+### Setup
+
+```bash
+# Create project using Vite
+npm create vite@latest task-manager-app --template react
+
+cd task-manager-app
+
+# Replace src/ with the provided code files
+# Then install dependencies
+npm install
+
+# Run dev server
+npm run dev
