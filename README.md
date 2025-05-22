@@ -4,15 +4,15 @@ A full-featured, performant, and modular **Task Management App** built using **R
 
 ## Features
 
-- ✅ Create, edit, and delete tasks
-- 🔍 Filter tasks by status (All, Active, Completed)
-- 💾 Persist tasks in `localStorage`
-- ♻️ Optimized rendering using `React.memo`, `useMemo`, and `useCallback`
-- 🧩 Custom hooks for form handling and task management
-- 🧪 Unit tested with Vitest + React Testing Library
-- 🎨 Styled with basic CSS
+- Create, edit, and delete tasks
+- Filter tasks by status (All, Active, Completed)
+- Persist tasks in `localStorage`
+- Optimized rendering using `React.memo`, `useMemo`, and `useCallback`
+- Custom hooks for form handling and task management
+- Unit tested with Vitest + React Testing Library
+- Styled with basic CSS
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - React 19
 - Vite
@@ -22,7 +22,7 @@ A full-featured, performant, and modular **Task Management App** built using **R
 - `localStorage` for persistent state
 - Vitest + React Testing Library
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
